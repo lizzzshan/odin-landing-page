@@ -89,3 +89,26 @@ body{
     width: 100px;
     height:100px;
 }
+
+/*Quote section content*/
+.quote{
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 500px;
+}
+
+.quote p{
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote b{
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-size: 36px;
+    text-align: right;
+}
+
