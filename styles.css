@@ -95,7 +95,7 @@ body{
     display:flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 0 500px;
+    padding: 50px 500px;
 }
 
 .quote p{
@@ -112,3 +112,13 @@ body{
     text-align: right;
 }
 
+/*Footer*/
+.footer{
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    text-align: center;
+    color:white;
+
+}
+
+/*Call to action page*/
