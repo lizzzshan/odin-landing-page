@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/*Navbar content*/
+.nav{
+    display:flex;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.header-link{
+    list-style-type: none;
+    margin-left:auto;
+    padding: 0px 100px 0px 0px;
+}
+
+.header-link a{
+    color:#E5E7EB;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.logo{
+    margin-right:auto;
+    padding:5px;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*Hero bg content*/
+.hero-bg{
+    padding:50px;
+    background-color: #1F2937;
+    height:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-container{
+    display:flex;
+    text-align: left;
+    flex-direction: column;
+    flex-basis: 400px;
+    padding: 40px;
+}
+.hero-title{
+    color:#F9FAF8;
+    font-weight: 900;
+    font-size:48px;
+}
+.hero-container p{
+    color:#E5E7EB;
+    font-size: 18px;
+}
+.hero-container button{
+    display:block;
+    font-size: 15px;
+    background-color:#3882F6;
+    color: #F9FAF8;
+    width:100px;
+    height:30px;
+    border-radius:5px;
+    border:none;
+}
+
+/*Middle section of the page content (with the profile cards)*/
+.center-title{
+    padding: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+}
+.cards{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+.box{
+    max-width: 200px;
+    text-align: center;
+}
+
+.box img{
+    width: 100px;
+    height:100px;
+}
