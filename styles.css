@@ -122,3 +122,34 @@ body{
 }
 
 /*Call to action page*/
+.action-box{
+    margin: 50px 500px;
+    padding: 10px 80px;
+    background-color:#3882F6;
+    display: flex;
+    align-items: center;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    margin: 0 10px;
+}
+
+.signup{
+    flex:1;
+    align-items: right;
+    margin: 10px 100px;
+}
+
+.signup button{
+    display: block;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-size:15px;
+    border-radius: 5px;
+    border-color:white;
+    width:100px;
+    height:40px;
+}
